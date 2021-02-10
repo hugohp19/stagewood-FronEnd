@@ -1,4 +1,4 @@
-# Stagewood - FrontEnd
+# Stagewood - Frontend
 
 User interface that allows users to login and sign up. This side of the application was done using React.js, CSS for styling, GraphQL and Apollo libraries, and sweetalert for error display.
 

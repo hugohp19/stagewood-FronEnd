@@ -16,12 +16,12 @@ const errorLink = onError(({ graphqlErrors, networkError}) => {
 
 const link = from([
   errorLink,
-  new HttpLink({uri: "/graphql"})
+  new HttpLink({uri: "https://stagewooddb.herokuapp.com/graphql"})
 ])
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: "/graphql"
+  uri: "https://stagewooddb.herokuapp.com/graphql"
 });
 
 

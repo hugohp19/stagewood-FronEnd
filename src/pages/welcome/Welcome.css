@@ -1,0 +1,96 @@
+.welcome-container{
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.welcome-message{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-message img{
+  width: 150px;
+}
+
+.welcome-message h3{
+  font-size: 1rem;
+}
+
+.welcome-message h3 span{
+  color: #f24e54;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.backBtn{
+  background-color: rgb(133, 146, 198);
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 100px;
+  margin-left: -20px;
+  padding-left: 20px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.userInfo-container{
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.userInfo-container img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 30px -17px rgba(242,78,84,1);
+  -moz-box-shadow: 0px 0px 30px -17px rgba(242,78,84,1);
+  box-shadow: 0px 0px 30px -17px rgba(242,78,84,1);
+}
+
+.userInfo-data-container{
+  border-radius: 5px;
+  color: white;
+  /* margin-left: 30px; */
+  width: 350px;
+}
+
+.Info-container{
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 0 20px;
+  border-radius: 5px;
+  background-color: #f24e54;
+}
+
+.Info-container:hover{
+  border-bottom: 1px solid white;
+  background-color: #f4abae;
+}
+
+.Info-container p{
+  padding: 5px;
+  font-weight: 700;
+}
+
+.label{
+  width: 100px;
+}
+
+
+@media only screen and (max-width: 768px){
+  .userInfo-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userInfo-container img{
+    width: 200px;
+    height: 200px;
+  }
+}
